@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>云雷达4.30</title>
+  <title>radar_cd_4.30</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/openlayers@4.6.4/dist/ol.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
@@ -15,7 +15,7 @@
   <style type="text/css">
 <!--
 .STYLE1 {
-	color: #FF0000;
+	color: #FF00FF;
 	font-size: 14px;
 }
 .STYLE2 {
@@ -34,12 +34,12 @@
   <div id="app">
     <div class="sidenav" id="navBox" style="display:none;">
       <section class="section">
-        <h1 class="title STYLE4">云雷达</h1>   
+        <h1 class="title STYLE4">云雷达</h1>
         <!-- <div class="field is-grouped">
           <a class="button is-small">Button</a>
           <a class="button is-small">Button2</a>
         </div> -->
-        
+
         <label class="label">地图选择:</label>
           <input type="radio" id="erangel" value="erangel" v-model="mapType"><label for="erangel">海岛地图　</label>
           <input type="radio" id="miramar" value="miramar" v-model="mapType"><label for="miramar">沙漠地图　</label>
@@ -52,7 +52,7 @@
           <input type="checkbox" id="showairdrop" v-model="showAirDrop"><label for="showairdrop">显示空投</label>
           <input type="checkbox" id="showcar" v-model="showCar"><label for="showcar">显示载具</label>
           <br><br>
-          
+
         <!-- <label class="label" v-on:dblclick="showNoItems">Item Options:</label> -->
         <label class="label">道具筛选:</label>
           <input type="checkbox" id="showBack" v-model="showBack"><label for="showBack"> 背包　</label>
